@@ -35,6 +35,7 @@ project(COLMAP LANGUAGES C CXX)
 
 set(COLMAP_VERSION "3.9")
 set(COLMAP_VERSION_NUMBER "3900")
+set(CMAKE_CUDA_ARCHITECTURES "native")
 
 ################################################################################
 # Include CMake dependencies
